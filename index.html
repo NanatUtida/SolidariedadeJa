@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>SolidariedadeJá</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🤝</div>
+        Solidariedade<span>Já</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="login.html" class="btn-nav">Entrar</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="img/hero_banner.png" alt="Pessoas se ajudando em comunidade">
+    <div class="hero-content">
+      <h1>Cada ação conta.</h1>
+      <h1 id="hero-title"> Mude vidas hoje.</h1>
+      <p>Conheça ONGs e projetos sociais que precisam do seu apoio. Doe roupas, alimentos, dinheiro ou simplesmente compartilhe.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="section">
+      <h2 class="section-title">Projetos em destaque</h2>
+      <p class="section-sub">Escolha um projeto e veja como você pode ajudar.</p>
+      
+      <ul class="projects-list">
+        
+        <li>
+          <article class="project-card">
+            
+            <figure>
+              <img src="img/ong_alimentar.png" alt="Voluntários distribuindo cestas básicas">
+            </figure>
+            
+            <div class="project-body">
+              <span class="project-tag">Alimentação</span>
+              <h2>Mesa Cheia</h2>
+              <p>O projeto Mesa Cheia atua em comunidades periféricas de Curitiba e região, distribuindo cestas básicas e refeições quentes para famílias em situação de vulnerabilidade alimentar. Com presença em mais de 15 bairros, já impactamos mais de 4.200 famílias desde 2019.</p>
+              <p class="needs-title">O que precisamos:</p>
+              <ul class="needs-list">
+                <li class="need-badge"><span class="icon">🍚</span> Arroz e feijão</li>
+                <li class="need-badge"><span class="icon">🥫</span> Alimentos não-perecíveis</li>
+                <li class="need-badge"><span class="icon">🪙</span> Dinheiro (Pix)</li>
+                <li class="need-badge"><span class="icon">🚗</span> Voluntários com veículo</li>
+              </ul>
+
+              <div class="sponsors-area">
+                <p class="sponsors-label">Apoiadores</p>
+                <ul class="sponsors-icons">
+                  <li><span class="sponsor-logo"><a href="https://site.paranasupermercados.com.br/" target="_blank">Supermercados Paraná</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.bb.com.br/site/" target="_blank">Banco do Brasil</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.amigao.com/" target="_blank">Supermercados Amigão</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://ccampoalimentos.com.br/" target="_blank">Ccampo Alimentos</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="project-card">
+            
+            <figure>
+              <img src="img/ong_educacao.png" alt="Crianças estudando em sala de aula">
+            </figure>
+            
+            <div class="project-body">
+              <span class="project-tag">Educação</span>
+              <h2>Criança que Aprende</h2>
+              <p>Oferecemos reforço escolar, aulas de inglês e programação para crianças e adolescentes de 6 a 17 anos em situação de risco social. Nossos educadores voluntários atendem mais de 800 alunos semanalmente em espaços comunitários cedidos por parceiros.</p> 
+              <p class="needs-title">O que precisamos:</p>
+              <ul class="needs-list">
+                <li class="need-badge"><span class="icon">📚</span> Livros e apostilas</li>
+                <li class="need-badge"><span class="icon">💻</span> Computadores usados</li>
+                <li class="need-badge"><span class="icon">✏️</span> Material escolar</li>
+                <li class="need-badge"><span class="icon">🪙</span> Dinheiro (Pix)</li>
+              </ul>
+
+              <div class="sponsors-area">
+                <p class="sponsors-label">Apoiadores</p>
+                <ul class="sponsors-icons">
+                  <li><span class="sponsor-logo"><a href="https://www.positivo.com.br/" target="_blank">Positivo Informática</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.livrariascuritiba.com.br/" target="_blank">Livraria Curitiba</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.estantevirtual.com.br/" target="_blank">Estante Virtual</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="project-card">
+            
+            <figure>
+              <img src="img/ong_roupas.png" alt="Voluntários separando e dobrando roupas doadas">
+            </figure>
+
+            <div class="project-body">
+              <span class="project-tag">Vestuário</span>
+              <h2>Abraço Quentinho</h2>
+              <p>O Abraço Quentinho recolhe, higieniza e distribui roupas, calçados e agasalhos para pessoas em situação de rua e famílias de baixa renda. No inverno, nossas campanhas chegam a distribuir mais de 3.000 peças por mês em abrigos e praças públicas.</p>
+              <p class="needs-title">O que precisamos:</p>
+              <ul class="needs-list">
+                <li class="need-badge"><span class="icon">🧥</span> Casacos e agasalhos</li>
+                <li class="need-badge"><span class="icon">👟</span> Calçados em bom estado</li>
+                <li class="need-badge"><span class="icon">🧦</span> Meias e roupas íntimas</li>
+                <li class="need-badge"><span class="icon">🪙</span> Dinheiro para logística</li>
+              </ul>
+
+              <div class="sponsors-area">
+                <p class="sponsors-label">Apoiadores</p>
+                <ul class="sponsors-icons">
+                  <li><span class="sponsor-logo"><a href="https://www.cea.com.br/" target="_blank">C&A Modas</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.hering.com.br/" target="_blank">Hering</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.correios.com.br/" target="_blank">Correios</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.lojasrenner.com.br/" target="_blank">Renner</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article class="project-card">
+            
+            <figure>
+              <img src="img/ong_idosos.png" alt="Voluntários conversando e jogando cartas com idosos em um centro comunitário">
+            </figure>
+
+            <div class="project-body">
+              <span class="project-tag">Idosos</span>
+              <h2>Raízes Vivas</h2>
+              <p>O projeto Raízes Vivas combate o isolamento e a solidão em idosos através de visitas semanais, atividades culturais e suporte à saúde básica. Atuamos em parceria com unidades de saúde e casas de repouso, alcançando mais de 600 idosos atendidos por mês.</p>
+              <p class="needs-title">O que precisamos:</p>
+              <ul class="needs-list">
+                <li class="need-badge"><span class="icon">💊</span> Medicamentos básicos</li>
+                <li class="need-badge"><span class="icon">🍎</span> Frutas e alimentos saudáveis</li>
+                <li class="need-badge"><span class="icon">🪁</span> Materiais de lazer</li>
+                <li class="need-badge"><span class="icon">🪙</span> Dinheiro (Pix)</li>
+                <li class="need-badge"><span class="icon">⏱️</span> Tempo voluntário</li>
+              </ul>
+
+              <div class="sponsors-area">
+                <p class="sponsors-label">Apoiadores</p>
+                <ul class="sponsors-icons">
+                  <li><span class="sponsor-logo"><a href="https://www.unimed.coop.br/site/web/parana" target="_blank">Unimed PR</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.farmaciasnissei.com.br/" target="_blank">Farmácias Nissei</a></span></li>
+                  <li><span class="sponsor-logo"><a href="https://www.sescpr.com.br/" target="_blank">SESC Paraná</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="section" id="sobre">
+      <div id="sobre-title">
+        <h2 class="section-title">Sobre a SolidariedadeJá</h2>
+        <h3>Conectando quem quer ajudar a quem precisa. Transformando vidas através da solidariedade.</h3>
+        <p id="sobre-descricao">Somos uma plataforma gratuita que conecta ONGs, projetos sociais e empresas apoiadoras a doadores e voluntários. Nossa missão é amplificar o impacto social tornando projetos verificados mais visíveis e acessíveis à sociedade.</p>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <h2 class="section-title" id="contato-title">Contato</h2>
+      <p>Entre em contato para cadastrar sua ONG ou projeto social.</p>
+      <br>
+      <ul>
+        <li class="contato-link"><span class="icon">📞</span><a href="tel:+554132000000"> (41) 3200-0000</a></li>
+        <li class="contato-link"><span class="icon">📧</span><a href="mailto:contato@solidariedadeja.org.br"> contato@solidariedadeja.org.br</a></li>
+        <li class="contato-link"><span class="icon">📍</span><a href="https://maps.google.com/?q=Cornélio+Procópio,+PR" target="_blank"> Cornélio Procópio – PR, Brasil</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon" id="footer-logo">🤝</div>
+        Solidariedade<span>Já</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="https://soulstorm0.github.io/" target="_blank">Lara Englerth</a></li>
+          <li><a href="https://nanatutida.github.io/FRONT-END/" target="_blank">Nathaniel Utida</a></li>
+          <li><a href="https://soulstorm0.github.io/" target="_blank">William Yamaguchi</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="footer-bottom">
+      <small>© 2026 SolidariedadeJá. Todos os direitos reservados.</small>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
