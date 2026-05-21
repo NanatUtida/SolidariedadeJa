@@ -47,4 +47,16 @@ git clone [https://github.com/nanatutida/SolidariedadeJa.git](https://github.com
 
 ---
 
+## 🌍 ODS Relacionadas
+
+<p align="center">
+  <img src="img/ODS 1.png" alt="ODS 1" width="100">
+  <img src="img/ODS 2.png" alt="ODS 2" width="100">
+  <img src="img/ODS 4.png" alt="ODS 4" width="100">
+  <img src="img/ODS 10.png" alt="ODS 10" width="100">
+  <img src="img/ODS 12.png" alt="ODS 12" width="100">
+</p>
+
+---
+
 💯 **Projeto da Disciplina de Programação Web Front-end da UTFPR-CP.**
