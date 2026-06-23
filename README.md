@@ -26,6 +26,7 @@ O projeto foi construído utilizando as seguintes ferramentas e linguagens:
 
 * `HTML5.`
 * `CSS3.`
+* `JavaScript.`
 
 ---
 

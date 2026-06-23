@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>SolidariedadeJá - Administração</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🤝</div>
+        Solidariedade<span>Já</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#projetos">Projetos</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="index.html#contato">Contato</a></li>
+          <li><a href="adm.html">Adm</a></li>
+          <li><a href="login.html" class="btn-nav">Entrar</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <section class="admin-container">
+      <h2 class="section-title">Administração de Usuários</h2>
+      <p class="section-sub">Cadastre novos usuários no sistema.</p>
+
+      <div class="admin-card">
+        <form id="form-cadastro">
+          <div class="form-group">
+            <label for="nome">Nome do usuário</label>
+            <input type="text" id="nome" placeholder="Digite o nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite o e-mail" required>
+          </div>
+          <div class="admin-actions">
+            <button type="submit" class="btn-auth">Cadastrar</button>
+            <button type="button" class="btn-secondary" id="btn-limpar">Limpar Campos</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="admin-list-container">
+        <div class="admin-list-header">
+          <h3>Usuários Cadastrados</h3>
+          <div class="search-box">
+            <input type="text" id="busca" placeholder="Pesquisar por nome ou e-mail...">
+            <button type="button" id="btn-pesquisar" class="btn-secondary btn-small">Pesquisar</button>
+          </div>
+        </div>
+        
+        <ul id="lista-usuarios" class="users-list">
+        </ul>
+
+        <div class="admin-list-footer">
+          <button type="button" id="btn-excluir-todos" class="btn-danger">Excluir Todos</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon" id="footer-logo">🤝</div>
+        Solidariedade<span>Já</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="https://laraenglerth.github.io/cv---lara/" target="_blank">Lara Englerth</a></li>
+          <li><a href="https://nanatutida.github.io/FRONT-END/" target="_blank">Nathaniel Utida</a></li>
+          <li><a href="https://soulstorm0.github.io/" target="_blank">William Yamaguchi</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div class="footer-bottom">
+      <small>© 2026 SolidariedadeJá. Todos os direitos reservados.</small>
+    </div>
+
+  </footer>
+
+  <script src="adm.js"></script>
+</body>
+
+</html>
